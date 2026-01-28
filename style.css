@@ -1,19 +1,30 @@
 :root {
-  --primary: #2c3e50;
-  --accent: #2964e1;
   --bg: #f8f9fb;
+  --text: #2c3e50;
+  --accent: #2964e1;
+  --card: #ffffff;
+  --muted: #555;
+}
+
+/* Thème sombre si le système est en dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1220;
+    --text: #e4e6eb;
+    --accent: #6ea0ff;
+    --card: #171a2e;
+    --muted: #a0a3b1;
+  }
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 * {
   box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  background: var(--bg);
-  color: var(--primary);
-  line-height: 1.6;
 }
 
 header {
