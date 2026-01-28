@@ -1,0 +1,80 @@
+:root {
+  --primary: #2c3e50;
+  --accent: #2964e1;
+  --bg: #f8f9fb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg);
+  color: var(--primary);
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.8rem;
+}
+
+.subtitle {
+  color: var(--accent);
+  margin-top: 0.5rem;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 1.5rem 3rem;
+}
+
+section {
+  margin-top: 2.5rem;
+}
+
+h2 {
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 0.3rem;
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+}
+
+.links li {
+  margin-bottom: 1.2rem;
+}
+
+.links a {
+  font-weight: 600;
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: var(--accent);
+}
+
+.links span {
+  display: block;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.85rem;
+  padding: 2rem 0;
+  color: #777;
+}
