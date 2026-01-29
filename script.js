@@ -10,6 +10,7 @@ const texts = {
     itchDesc: "Prototypes et jeux finalisés sous Godot / Unity",
     shaderDesc: "Expérimentations graphiques et rendu temps réel",
     githubDesc: "C++, C#, JavaScript",
+    CVLink: "Télécharger mon CV",
     contactTitle: "Contact",
     contactText: "nonofr80@hotmail.fr<br>Caen, France",
     footer: "© 2026 — Noé Freville"
@@ -23,6 +24,7 @@ const texts = {
     itchDesc: "Prototypes and finished games under Godot / Unity",
     shaderDesc: "Graphic experiments and real-time rendering",
     githubDesc: "C++, C#, JavaScript",
+    CVLink: "Download my CV",
     contactTitle: "Contact",
     contactText: "nonofr80@hotmail.fr<br>Caen, France",
     footer: "© 2026 — Noé Freville"
@@ -41,6 +43,7 @@ document.getElementById("itch-link").innerHTML = t.itchLink;
 document.getElementById("itch-desc").innerHTML = t.itchDesc;
 document.getElementById("shader-desc").innerHTML = t.shaderDesc;
 document.getElementById("github-desc").innerHTML = t.githubDesc;
+document.getElementById("cv-link").innerHTML = t.CVLink;
 document.getElementById("contact-title").innerHTML = t.contactTitle;
 document.getElementById("contact-text").innerHTML = t.contactText;
 document.getElementById("footer-text").innerHTML = t.footer;
