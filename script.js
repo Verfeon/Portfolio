@@ -8,6 +8,7 @@ const texts = {
     aboutTitle: "À propos",
     aboutText: "Étudiant ingénieur en informatique (ENSICAEN), spécialisation image, son et intelligence artificielle. Intéressé par le développement de jeux vidéo, les moteurs graphiques et les algorithmes de rendu temps réel.",
     projectsTitle: "Projets & liens",
+    itchLink: "Jeux publiés",
     itchDesc: "Prototypes et jeux finalisés sous Godot / Unity",
     shaderDesc: "Expérimentations graphiques et rendu temps réel",
     githubDesc: "C++, C#, JavaScript",
@@ -20,6 +21,7 @@ const texts = {
     aboutTitle: "About",
     aboutText: "Computer engineering student (ENSICAEN), specialized in image, sound and artificial intelligence. Interested in game development, graphics engines, and real-time rendering algorithms.",
     projectsTitle: "Projects & Links",
+    itchLink: "Published games",
     itchDesc: "Prototypes and finished games under Godot / Unity",
     shaderDesc: "Graphic experiments and real-time rendering",
     githubDesc: "C++, C#, JavaScript",
@@ -39,6 +41,7 @@ document.getElementById("subtitle").innerHTML = t.subtitle;
 document.getElementById("about-title").innerHTML = t.aboutTitle;
 document.getElementById("about-text").innerHTML = t.aboutText;
 document.getElementById("projects-title").innerHTML = t.projectsTitle;
+document.getElementById("itch-link").innerHTML = t.itchLink;
 document.getElementById("itch-desc").innerHTML = t.itchDesc;
 document.getElementById("shader-desc").innerHTML = t.shaderDesc;
 document.getElementById("github-desc").innerHTML = t.githubDesc;
