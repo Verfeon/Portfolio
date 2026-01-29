@@ -80,12 +80,12 @@ h2 {
 .links span {
   display: block;
   font-size: 0.9rem;
-  color: #555;
+  color: var(--muted);
 }
 
 footer {
   text-align: center;
   font-size: 0.85rem;
   padding: 2rem 0;
-  color: #777;
+  color: var(--muted);
 }
