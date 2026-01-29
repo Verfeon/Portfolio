@@ -8,7 +8,7 @@ const texts = {
     aboutTitle: "À propos",
     aboutText: "Étudiant ingénieur en informatique (ENSICAEN), spécialisation image, son et intelligence artificielle. Intéressé par le développement de jeux vidéo, les moteurs graphiques et les algorithmes de rendu temps réel.",
     projectsTitle: "Projets & liens",
-    itchLink: "Jeux publiés",
+    itchLink: "Jeux publiés ",
     itchDesc: "Prototypes et jeux finalisés sous Godot / Unity",
     shaderDesc: "Expérimentations graphiques et rendu temps réel",
     githubDesc: "C++, C#, JavaScript",
