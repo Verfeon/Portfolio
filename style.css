@@ -6,7 +6,6 @@
   --muted: #555;
 }
 
-/* Thème sombre si le système est en dark mode */
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #0f1220;

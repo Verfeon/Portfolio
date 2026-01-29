@@ -1,7 +1,5 @@
-// Détection de la langue du navigateur
 const lang = navigator.language || navigator.userLanguage;
 
-// Contenus FR / EN
 const texts = {
   fr: {
     subtitle: "Ingénieur logiciel · intelligence artificielle · Jeu vidéo",
@@ -31,10 +29,8 @@ const texts = {
   }
 };
 
-// Choisir la langue (FR par défaut)
 const t = lang.startsWith("en") ? texts.en : texts.fr;
 
-// Remplacement du contenu
 document.documentElement.lang = lang.startsWith("en") ? "en" : "fr";
 
 document.getElementById("subtitle").innerHTML = t.subtitle;
