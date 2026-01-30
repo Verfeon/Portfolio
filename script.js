@@ -10,6 +10,8 @@ const texts = {
     itchDesc: "Prototypes et jeux finalisés sous Godot / Unity",
     shaderDesc: "Expérimentations graphiques et rendu temps réel",
     githubDesc: "C++, C#, JavaScript",
+    linkedinLink: "LinkedIn — Profil professionnel",
+    linkedinDesc: "Expériences et compétences",
     CVLink: "Télécharger mon CV",
     contactTitle: "Contact",
     contactText: "nonofr80@hotmail.fr<br>Caen, France",
@@ -24,6 +26,8 @@ const texts = {
     itchDesc: "Prototypes and finished games under Godot / Unity",
     shaderDesc: "Graphic experiments and real-time rendering",
     githubDesc: "C++, C#, JavaScript",
+    linkedinLink: "LinkedIn — Professional profile",
+    linkedinDesc: "Experiences and skills",
     CVLink: "Download my CV",
     contactTitle: "Contact",
     contactText: "nonofr80@hotmail.fr<br>Caen, France",
@@ -43,6 +47,8 @@ document.getElementById("itch-link").innerHTML = t.itchLink;
 document.getElementById("itch-desc").innerHTML = t.itchDesc;
 document.getElementById("shader-desc").innerHTML = t.shaderDesc;
 document.getElementById("github-desc").innerHTML = t.githubDesc;
+document.getElementById("linkedin-link").innerHTML = t.linkedinLink;
+document.getElementById("linkedin-desc").innerHTML = t.linkedinDesc;
 document.getElementById("cv-link").innerHTML = t.CVLink;
 document.getElementById("contact-title").innerHTML = t.contactTitle;
 document.getElementById("contact-text").innerHTML = t.contactText;
