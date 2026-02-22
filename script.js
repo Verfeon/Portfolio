@@ -4,15 +4,17 @@ const texts = {
   fr: {
     subtitle: "Ingénieur logiciel · intelligence artificielle · Jeu vidéo",
     aboutTitle: "À propos",
-    aboutText: "Étudiant ingénieur en informatique (ENSICAEN), spécialisation image, son et intelligence artificielle. Intéressé par le développement de jeux vidéo, les moteurs graphiques et les algorithmes de rendu temps réel.",
+    aboutText: "Étudiant ingénieur en développement logiciel (ENSICAEN). Passionné par les jeux vidéos.",
     projectsTitle: "Projets & liens",
-    itchLink: "itch.io — Jeux publiés",
+    itchLink: '<i class="fa-brands fa-itch-io"></i> itch.io — Jeux publiés',
     itchDesc: "Prototypes et jeux finalisés sous Godot / Unity",
+    shaderLink: '<img src="assets/shadertoy.png" alt="icone Shadertoy"> Shadertoy — Shaders GLSL',
     shaderDesc: "Expérimentations graphiques et rendu temps réel",
+    githubLink: '<i class="fa-brands fa-github"></i> GitHub — Code',
     githubDesc: "C++, C#, JavaScript",
-    linkedinLink: "LinkedIn — Profil professionnel",
+    linkedinLink: '<i class="fa-brands fa-linkedin"></i> LinkedIn — Profil professionnel',
     linkedinDesc: "Expériences et compétences",
-    CVLink: "Télécharger mon CV",
+    CVLink: '<i class="fa-solid fa-file-pdf"></i> Télécharger mon CV',
     contactTitle: "Contact",
     contactText: "nonofr80@hotmail.fr<br>Caen, France",
     footer: "© 2026 — Noé Freville"
@@ -20,15 +22,17 @@ const texts = {
   en: {
     subtitle: "Software engineer · AI · Game development",
     aboutTitle: "About",
-    aboutText: "Computer engineering student (ENSICAEN), specialized in image, sound and artificial intelligence. Interested in game development, graphics engines, and real-time rendering algorithms.",
+    aboutText: "Software engineering student (ENSICAEN). Passionate about video games.",
     projectsTitle: "Projects & Links",
-    itchLink: "itch.io — Published games",
+    itchLink: '<i class="fa-brands fa-itch-io"></i> itch.io — Published games',
     itchDesc: "Prototypes and finished games under Godot / Unity",
+    shaderLink: '<img src="assets/shadertoy.png" alt="Shadertoy icon"> Shadertoy — GLSL Shaders',
     shaderDesc: "Graphic experiments and real-time rendering",
+    githubLink: '<i class="fa-brands fa-github"></i> GitHub — Code',
     githubDesc: "C++, C#, JavaScript",
-    linkedinLink: "LinkedIn — Professional profile",
+    linkedinLink: '<i class="fa-brands fa-linkedin"></i> LinkedIn — Professional profile',
     linkedinDesc: "Experiences and skills",
-    CVLink: "Download my CV",
+    CVLink: '<i class="fa-solid fa-file-pdf"></i> Download my CV',
     contactTitle: "Contact",
     contactText: "nonofr80@hotmail.fr<br>Caen, France",
     footer: "© 2026 — Noé Freville"
@@ -45,7 +49,9 @@ document.getElementById("about-text").innerHTML = t.aboutText;
 document.getElementById("projects-title").innerHTML = t.projectsTitle;
 document.getElementById("itch-link").innerHTML = t.itchLink;
 document.getElementById("itch-desc").innerHTML = t.itchDesc;
+document.getElementById("shader-link").innerHTML = t.shaderLink;
 document.getElementById("shader-desc").innerHTML = t.shaderDesc;
+document.getElementById("github-link").innerHTML = t.githubLink;
 document.getElementById("github-desc").innerHTML = t.githubDesc;
 document.getElementById("linkedin-link").innerHTML = t.linkedinLink;
 document.getElementById("linkedin-desc").innerHTML = t.linkedinDesc;
