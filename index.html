@@ -20,17 +20,19 @@
     <main>
       <section>
         <h2 id="about-title">À propos</h2>
-        <p id="about-text">
-          Étudiant ingénieur en développement logiciel (ENSICAEN). Passionné par les jeux vidéos.
-        </p>
+        <div style="display: block;">
+          <p id="about-text">
+            Étudiant ingénieur en développement logiciel (ENSICAEN). Passionné par les jeux vidéos.
+          </p>
+          <div id="tic-tac-toe">
+            <p>Morpion en webGL</p>
+            <canvas id="glCanvas" width="200" height="200"></canvas>
+            <button id="resetButton">Reset</button>
+            <p id="tic-tac-toe-result"></p>
+          </div>
+        </div>
       </section>
 
-      <div id="tic-tac-toe">
-        <p>Morpion en webGL</p>
-        <canvas id="glCanvas" width="200" height="200"></canvas>
-        <button id="resetButton">Reset</button>
-        <p id="tic-tac-toe-result"></p>
-      </div>
 
       <section>
         <h2 id="projects-title">Projets & liens</h2>
